@@ -1,0 +1,40 @@
+.stickerItem {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  border-radius: 10px;
+  background-color: #BFCAE0;
+  box-shadow: 0 0 10px rgba(54, 61, 128, 0.5);
+}
+
+.stickerItem__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: cornflowerblue;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px 10px 0 0;
+  color: aliceblue;
+}
+
+.stickerItem__header__delete {
+  border: solid 1px aliceblue;
+  padding: 0 2px;
+  cursor: pointer;
+  transition: 0.9s;
+}
+.stickerItem__header__delete:hover {
+  color: cornflowerblue;
+  background-color: aliceblue;
+  border: solid 1px aliceblue;
+}
+
+.stickerItem__text textarea {
+  margin: 10px;
+  width: 160px;
+  height: 110px;
+  padding: 10px;
+  color: gray;
+}
